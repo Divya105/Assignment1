@@ -1,0 +1,27 @@
+
+package LabBook1;
+
+import java.util.Scanner;
+public class Exercise4 {
+static int checkNumber(int n) {
+	int number=0;{
+	if(n%2==0 && n!=1) {
+	
+		return 1;
+	}
+	else {		
+return 0;
+	}
+}
+}
+public static void main(String[] args) {
+Scanner scanner=new Scanner(System.in);
+System.out.println("enter the value of n");
+int n=scanner.nextInt();
+int x = (checkNumber(n));
+if(x==1) {
+	System.out.println("number is power of 2");
+}
+else 
+	System.out.println("number is not power of 2");
+}}
